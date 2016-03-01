@@ -8,13 +8,13 @@ class GalleryImageController extends Controller {
 		'Sort' => 'ADMIN'
 	);
 
-	function init(){
+    public function init(){
 
 		parent::init();
 
 	}
 
-	function Sort() {
+    public function Sort() {
 
 		$pageID = $_GET['pageID'];
 		$newPosition  = $_GET['newPosition'];
